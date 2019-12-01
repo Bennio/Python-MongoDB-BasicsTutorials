@@ -31,6 +31,6 @@ if input('Enter DB') in dblist:
 else:
     print("Not Present")
 
-print(dblist)
+print(x)
 
 print(myclient.list_database_names())
